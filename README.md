@@ -6,11 +6,18 @@ This project is a sample on how to access SharePoint without service accounts th
 
 Below are the steps to create AppId and Secret in SharePoint:
 
-1. Use the following link to generate AppId. In the URL, please replace &lt;sitecollection&gt; with your sitecollection https://&lt;sitecollection&gt;/_layouts/15/AppRegNew.aspx
-2. 
+- Use the following link to generate AppId. In the URL, please replace &lt;sitecollection&gt; with your sitecollection https://&lt;sitecollection&gt;/_layouts/15/AppRegNew.aspx
+
+Below image shows how the screen look like when we call the above link and you need to generate secret as shown in screenshot.
+
+<img src="/generatesecret.png">
+
+
   
- In the Permissions Request XMl, paste the below XML:
+ - In the Permissions Request XMl, paste the below XML:
   
   &lt;AppPermissionRequests AllowAppOnlyPolicy="true"&gt;<br>
    &lt;AppPermissionRequest Scope="http://sharepoint/content/sitecollection" Right="FullControl" /&gt;<br>
  &lt;/AppPermissionRequests&gt;
+
+
