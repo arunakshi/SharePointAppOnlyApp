@@ -1,4 +1,4 @@
-# SharePointAppUsingAppIdSecret
+# SharePointAppOnlyApp
 This Project contains an sharepoint app that access sharepoint online using AppId and Secret. Creating AppOnly Permissions Conole App.
 You can copy the code from the console app and use it in your App.
 
